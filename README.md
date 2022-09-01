@@ -1,4 +1,4 @@
-![team generate](https://user-images.githubusercontent.com/106499144/187825115-35c25f4c-56fa-43db-acf2-cebd2019b636.jpg)
+
 # Team Generator
 
 ## Description
@@ -68,4 +68,5 @@ The project generates a `team.html` page in the `output` directory, that display
   * ID
 
   * Role-specific property (School, link to GitHub profile, or office number)
-
+  * 
+![team generate](https://user-images.githubusercontent.com/106499144/187825115-35c25f4c-56fa-43db-acf2-cebd2019b636.jpg)
