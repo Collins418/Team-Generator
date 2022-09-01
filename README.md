@@ -27,8 +27,9 @@ I want to generate a webpage that displays my team's basic info
 so that I have quick access to emails and GitHub profiles
 ```
 
-* Demo of the application
+* Demo of the application Video and deploy link
 [https://watch.screencastify.com/v/eq4L4r1NSOF23XzlZRrG]
+[ https://collins418.github.io/Team-Generator/]
 
 
 #### Installation 
