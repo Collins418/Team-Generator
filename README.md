@@ -1,3 +1,4 @@
+![team generate](https://user-images.githubusercontent.com/106499144/187825115-35c25f4c-56fa-43db-acf2-cebd2019b636.jpg)
 # Team Generator
 
 ## Description
