@@ -17,6 +17,6 @@
     "url": "collins418"
   },
   "dependencies": {
-    "inquirer": "^9.1.1"
+    "inquirer": "^8.2.4"
   }
 }

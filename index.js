@@ -1,9 +1,7 @@
-// write all const here
-const inquirer = require("inquirer");
-
-const Intern = require("./lib/Intern");
-const Engineer = require("./lib/Engineer");
-const Manager = require("./lib/Manager");
+const inquirer = require('inquirer');
+const Intern = require('./lib/Intern');
+const Engineer = require('./lib/Engineer');
+const Manager = require('./lib/Manager');
 
 const generateSite = require('./lib/generatesite');
 const path = require("path");
@@ -76,7 +74,7 @@ const promptManager = () => {
               },
           ]).then(answers => {
               console.log(answers);
-              const manager = new Manager(answers.name, answers.employeeId, answers.email, answers.officeNumber);
+              const manager =new Manager(answers.name, answers.employeeId, answers.email, answers.officeNumber);
               teamMembers.push(manager);
               promptMenu();
           })
@@ -98,8 +96,7 @@ const promptManager = () => {
                       case "add an intern":
                           promptIntern();
                           break;
-                      default:
-                          buildTeam();
+                      default: buildTeam();
                   }
               });
       };
@@ -166,7 +163,7 @@ const promptManager = () => {
               }
           ]).then(answers => {
               console.log(answers);
-              const engineer = new Engineer(answers.name, answers.employeeId, answers.email, answers.githubUsername);
+              const engineer =new Engineer(answers.name, answers.employeeId, answers.email, answers.githubUsername);
               teamMembers.push(engineer);
               promptMenu();
           })
@@ -234,7 +231,7 @@ const promptManager = () => {
               }
           ]).then(answers => {
               console.log(answers);
-              const intern = new Intern(answers.name, answers.employeeId, answers.email, answers.school);
+              const intern =new Intern(answers.name, answers.employeeId, answers.email, answers.school);
               teamMembers.push(intern);
               promptMenu();
           })
